@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-using-node-and-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanVidurath/REST-API-using-NodeJS-ExpressJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SanVidurath/REST-API-using-NodeJS-ExpressJS/issues"
+  },
+  "homepage": "https://github.com/SanVidurath/REST-API-using-NodeJS-ExpressJS#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
+}
