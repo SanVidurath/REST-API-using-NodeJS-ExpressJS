@@ -24,5 +24,26 @@ A basic full-stack-ready RESTful API built using **Express**, **MongoDB**, and *
 
 ---
 
-## 📁 Folder Structure
+## 🧪 API Endpoints
+
+### 🔐 Authentication
+
+- `POST /api/auth/register` – Register a user  
+- `POST /api/auth/login` – Login a user  
+
+### 📦 Products
+
+- `GET /api/products` – Get all products  
+- `GET /api/products/:id` – Get product by ID  
+- `POST /api/products` – Create a new product  
+- `PUT /api/products/:id` – Update product  
+- `DELETE /api/products/:id` – Delete product  
+
+---
+
+## 📌 Notes
+
+- This is a **backend-only** project. You can connect any frontend (React, Angular, etc.) via HTTP requests.
+- No authentication middleware is added to the product routes — feel free to extend it with JWT or session-based auth.
+
 
